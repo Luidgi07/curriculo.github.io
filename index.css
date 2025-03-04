@@ -429,7 +429,7 @@ input:valid, textarea:valid{
 .menuOculto{
     height: 100%;
     width: 0;
-    position: fixed;
+    position: static;
     z-index: 1; /* define a posição, ou seja, se estáá frente de x div ou atras da outra*/
     top: 0;
     left: 0;
