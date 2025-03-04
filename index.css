@@ -1,7 +1,11 @@
 :root{
     --color-black:#000F1A;
 }
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* tamanho da box  ->  border-box tem tudo incluido menos as margens, content-box não tem o padding, border e margin, padding-box não inclui border e margem*/
+  }
 html{
     scroll-behavior: smooth;/* */
 }
