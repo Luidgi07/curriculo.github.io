@@ -34,14 +34,10 @@ h1, h2, h3, h4, h5, h6
 #banner{
 	background: url(lionlc.png) no-repeat fixed; /* imagem de fundo e fixado*/
 	background-size: cover; /* tamanho background - cover - cobre toda a secção ou container - coloca em toda a secção mas deixa a imagem na dimensão original e pode e aparecer a duplicar*/
-	min-height: 900px; /* altura minima */
+	min-height: 1000px; /* altura minima */
 	position: relative; /* posição  - fixed, relative, absolute,*/
 }
-.bg-color{
-	background-color: #000F1A;
-    opacity: 0.70; /*transparencia*/
-	min-height: 750px;
-}
+
 .banner-info{
 	padding-top: 190px; /* margem superior interna do local */
 }
